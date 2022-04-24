@@ -1,23 +1,80 @@
 /*! Place your custom styles here */
 
+@font-face {
+    font-family: 'Sukhumvit';
+    src: url('../fonts/sukhumvit-set/SukhumvitSet-Bold.ttf');
+    src: url('../fonts/sukhumvit-set/SukhumvitSet-Light.ttf');
+    src: url('../fonts/sukhumvit-set/SukhumvitSet-Medium.ttf') format('truetype');
+    src: url('../fonts/sukhumvit-set/SukhumvitSet-SemiBold.ttf');
+    src: url('../fonts/sukhumvit-set/SukhumvitSet-Text.ttf');
+    src: url('../fonts/sukhumvit-set/SukhumvitSet-Thin.ttf');
+}
+
 .video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* padding-top: 25px; */
-  height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* padding-top: 25px; */
+    height: 0;
 }
 
 .video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
-.instafeed + .btn {
-  margin-top: 1em;
+.instafeed+.btn {
+    margin-top: 1em;
+}
+
+.pos-vertical-bottom {
+    top: 95%;
+}
+
+.empty-vessel-title {
+    max-width: 50%;
+}
+
+.title-album {
+    color: #999999 !important;
+}
+
+.mailchimp-form {
+    text-align: center;
+}
+
+.mc-field-group {
+    width: 75%;
+}
+
+.subscribe-button {
+    width: 25%;
+    margin: 0 1em 0 1em !important;
+    padding: 0 1em 0 1em !important;
+}
+
+.email-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-justify-end {
+    justify-content: flex-end;
+}
+
+.flex-align-end {
+    align-items: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
 }
 
 h1,
@@ -26,19 +83,19 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 0;
-  font-family: "Montserrat", "Open Sans", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 0;
+    font-family: "Sukhumvit", "Open Sans", "Helvetica", "Arial", sans-serif;
 }
 
 .text-reversed {
-  transform: scale(-1, 1);
-  -moz-transform: scale(-1, 1);
-  -webkit-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 
 .inline-heading h1 {
-  display: inline-block;
+    display: inline-block;
 }
