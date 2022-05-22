@@ -50,6 +50,10 @@
     width: 75%;
 }
 
+.spotify-container {
+    margin: 0 25%;
+}
+
 .subscribe-button {
     width: 25%;
     margin: 0 1em 0 1em !important;
